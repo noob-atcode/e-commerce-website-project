@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+header {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3), -4px -4px 8px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    gap: 40px;
+}
+
+.headerleft {
+    display: flex;
+}
+
+.headerleft .logo {
+    border-right: 1px solid #ccc;
+    padding: 15px 25px;
+}
+
+.headerleft .headerAddress {
+
+    padding: 15px 25px;
+}
+
+.headerleft .headerAddress h3 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.headerleft .headerAddress p {
+    font-size: 14px;
+}
+
+.searchbox {
+    /* flex-grow 1 going to take the remained one space of parent container */
+    flex-grow: 1;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f7f7f7;
+}
+
+.searchbox button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.searchbox input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+
+}
+
+.searchbox input:focus {
+    outline: none;
+}
+
+.headerbtn {
+    display: flex;
+}
+
+
+.headerbtn .cartbtn {
+    margin: 0px 7.5px;
+    padding: 10px;
+    border-radius: 12px;
+    border: #ccc;
+    background: #6eb35d;
+    font-family: system-ui;
+    font-weight: bolder;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.headerbtn .logbtn {
+    margin: 0px 7.5px;
+    padding: 10px;
+    border-radius: 12px;
+    border: #ccc;
+
+}
+
+.bannersec {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.bannersec img {
+    width: 100%;
+}
+
+.orderbanner {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+}
+
+.orderbannerItem {
+    flex-basis: 28%;
+    margin: 1%;
+}
+
+.orderbannerItem img {
+    width: 100%;
+}
+
+.categorysec {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoryItem {
+    flex-basis: 10%;
+}
+
+.categoryItem img {
+    width: 100%;
+}
+
+.ProductSection {
+    max-width: 1280px;
+    margin: auto;
+   
+
+}
+
+.headingRow{
+  margin-top: 20px ;
+}
+
+.productRow {
+    display: flex;
+      flex-wrap: wrap;
+
+}
+
+.productRow .dairyproduct {
+    flex-basis: 18%;
+    margin-right:1%;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    
+    border-radius: 10px;
+    margin-top: 25px;
+   
+}
+
+.dairyproduct .Img  {
+  max-width: 150px;
+    max-height: 250px;
+    margin: auto;
+   
+}
+
+.Img img{
+    width: 100%;
+}
+
+.fixedItem{
+    padding: 0px 0px 0px 20px;
+}
+
+.fixedItem p{
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 25px;
+   
+    color: rgb(144, 142, 142);
+}
+.fixedItem   .adjustRatecart{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.fixedItem h1{
+        
+        padding: 20px 0px;
+}
+
+ .fixedItem .inner{
+  background-color: #e4e4e4;
+}
+
+.fixedItem button{
+    font-size: 20px;
+    color: white;
+    background-color: #6eb35d;
+    border: #ccc;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 40px 0px 0px 0px;
+}
+
+.footer-mid{
+    max-width: 1280px;
+    margin: auto;
+    
+}
+
+.footer-mid-row1{
+  width: 100%;
+  display: flex;
+}
+
+.footer-mid-row-left {
+   flex-basis: 30%;
+}
+
+.footer-mid-row-left h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+
+
+ .usefullinks{
+    display: flex;
+    
+}
+
+ .usefullinks ul {
+    flex-basis:33%;
+    padding-right: 75px;
+
+}
+
+.usefullinks ul li {
+  padding-bottom: 17px;
+  color: rgb(117, 117, 117);
+}
+
+.footer-mid-row1-right{
+   flex-basis: 70%;
+}
+

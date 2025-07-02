@@ -1,0 +1,145 @@
+@media only screen and (min-width:200px) and (max-width:665px) {
+    header {
+        flex-direction: column;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3), -4px -4px 8px rgba(255, 255, 255, 0.5);
+        align-items: stretch;
+        gap: 0px;
+
+    }
+
+    .headerleft {
+        justify-content: center;
+    }
+
+    .headerleft .headerAddress {
+        padding: 15px 16px;
+    }
+
+    .headerleft .logo {
+        border-right: 1px solid #ccc;
+        padding: 15px 15px;
+    }
+
+    .headerleft .headerAddress h3 {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        margin-bottom: 5px;
+    }
+
+    .headerleft .headerAddress p {
+        font-size: 12px;
+    }
+
+    .searchbox {
+        margin-bottom: 1px;
+    }
+   
+    .bannersec{
+        display: none;
+    }
+
+    .orderbanner{
+        flex-direction: column;
+    }
+
+    .categoryItem{
+        flex-basis: 25%;
+    }
+
+    .dairyproduct .Img  {
+    margin: 10px;
+    max-width: 150px;
+    max-height: 150px;
+   
+   
+}
+
+    .productRow .dairyproduct{
+        flex-basis: 25%;
+    }
+
+}
+@media only screen and (min-width:666px) and (max-width:991px) {
+     .categoryItem{
+        flex-basis: 20%;
+    }
+    .dairyproduct .Img  {
+    
+         margin: 10px;
+    max-width: 200px;
+    max-height: 200px;
+
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:850px) {
+
+    .headerbtn {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /* background:#e3f2fd	; */
+
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:1120px){
+ .fixedItem{
+    padding: 0px 0px 0px 10px;
+}
+.fixedItem p{
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 15px;
+   
+    
+}
+
+.fixedItem   .adjustRatecart{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.fixedItem h1{
+         font-size: small;
+        padding: 15px 0px;
+}
+.fixedItem button{
+    font-size: 15px;
+    color: white;
+    background-color: #6eb35d;
+    border: #ccc;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (min-width:200px) and (max-width:575px) {
+    .bannersec {
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:991px) {
+    .banneritem {
+        flex-basis: 48%;
+       
+    }
+  
+   
+} */
